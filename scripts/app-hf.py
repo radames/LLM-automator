@@ -26,7 +26,7 @@ data = {
     "parameters": {"max_new_tokens": 1000, "return_full_text": False},
 }
 try:
-    response = requests.post(url, headers=headers, data=json.dumps(data))
+    response = requests.post(url, headers=headers, json=data)
     generated_text = response.json()[0]["generated_text"]
     print(f"{input_string}\n\n{generated_text.strip()}")
 except Exception as e:

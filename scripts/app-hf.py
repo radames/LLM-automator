@@ -7,7 +7,6 @@ except ImportError:
 
     subprocess.check_call(["python3", "-m", "pip", "install", "requests"])
     import requests
-import json
 import sys
 
 input_string = sys.argv[1]  # user

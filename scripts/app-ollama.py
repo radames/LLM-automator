@@ -7,7 +7,6 @@ except ImportError:
 
     subprocess.check_call(["python3", "-m", "pip", "install", "requests"])
     import requests
-import json
 import sys
 
 input_string = sys.argv[1]
@@ -27,7 +26,7 @@ data = {
     "raw": True,
 }
 try:
-    response = requests.post(url, headers=headers, data=json.dumps(data))
+    response = requests.post(url, headers=headers, json=data)
     response = response.json()["response"]
     print(f"{input_string}\n\n{response.strip()}")
 except Exception as e:

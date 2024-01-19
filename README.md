@@ -1,9 +1,5 @@
 # LLM-automator
 
-
-https://github.com/radames/LLM-automator/assets/102277/5144a46d-7b3c-443e-a86e-c0b8205085f1
-
-
 # Huggingface Backend
 
 ## Installation
@@ -47,3 +43,7 @@ ollama run mistral
 Install `llm-automator-ollama.workflow` the same way as above, no need to edit and add token, however you may edit `MODEL="mistral"`, in case you want to use a different model
 
 <img src="assets/step-7.jpg" style="max-width: 600px;" />
+
+----
+https://github.com/radames/LLM-automator/assets/102277/5144a46d-7b3c-443e-a86e-c0b8205085f1
+

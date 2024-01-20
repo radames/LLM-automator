@@ -87,7 +87,7 @@ data = {
     "raw": True,
 }
 try:
-    response = requests.post(url, headers=headers, data=data)
+    response = requests.post(url, headers=headers, json=data)
     response = response.json()["response"]
     print(f"{input_string}\n\n{response.strip()}")
 except Exception as e:

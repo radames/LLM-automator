@@ -42,8 +42,19 @@ ollama run mistral
 
 Install `llm-automator-ollama.workflow` the same way as above, no need to edit and add token, however you may edit `MODEL="mistral"`, in case you want to use a different model
 
-<img src="assets/step-7.jpg" style="max-width: 600px;" />
+<img src="assets/step-7.jpg" width="270"/>
+
+
+# OpenAI
+
+
+Install `llm-automator-openai.workflow` the same way as above, however you may edit `OPENAI_KEY = "sk-.........."` and `MODEL = "gpt-4-1106-preview"`, in case you want to use a different model
+
+<img width="270" alt="image" src="https://github.com/radames/LLM-automator/assets/102277/47b8c108-72ed-4e3d-ab0e-fc10a1374858">
 
 ----
 https://github.com/radames/LLM-automator/assets/102277/5144a46d-7b3c-443e-a86e-c0b8205085f1
+
+
+
 

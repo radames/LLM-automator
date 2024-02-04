@@ -1,5 +1,12 @@
 # LLM-automator
 
+## Guides
+[Huggingface-Backend](#huggingface-backend)  
+[Ollama](#ollama-backend)  
+[OpenAI](#openai)  
+
+For a multi-platform solution, consider [plock project](https://github.com/jasonjmcghee/plock)
+
 # Huggingface Backend
 
 ## Installation

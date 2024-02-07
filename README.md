@@ -52,6 +52,15 @@ Install `llm-automator-ollama.workflow` the same way as above, no need to edit a
 <img src="assets/step-7.jpg" width="270"/>
 
 
+## Vision
+
+
+
+https://github.com/radames/LLM-automator/assets/102277/d3336837-2b3d-471d-8c04-47e572cec411
+
+
+
+
 # OpenAI
 
 
